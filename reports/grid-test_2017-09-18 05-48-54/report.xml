@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><test_report>
+<info>
+<test_info>
+<test_status>OK</test_status>
+<time_zone>Central European Time</time_zone>
+<run_started>Mon, 18 Sep 2017 14:18:54</run_started>
+<total_time>25.0</total_time>
+<project/>
+<user>root</user>
+<machine_name>admins-mac-mini.local</machine_name>
+</test_info>
+<device_info>
+<device_name>Sony Xperia XZ  -- C7</device_name>
+<manufacture>Sony</manufacture>
+<model>F8331</model>
+<os>Android</os>
+<serial_number>CB512DLQDM</serial_number>
+<version>7.1.1</version>
+<versionMajor>7.x</versionMajor>
+<screen_size>1080x1920</screen_size>
+</device_info>
+</info>
+<reports>
+<report>
+<text>/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/headless/CLOUD-SID_2017-09-18_14-18-46-913e4d92-7d82-46fd-81f0-3c7734ff730f/61b14d07-971f-4ebb-9bc9-b33aba71e392</text>
+<line>Start test AndroidDemoTest</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>0.PNG</imageFile>
+<secondImageFile>1.PNG</secondImageFile>
+<line>Device Action: HOME</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>2.PNG</imageFile>
+<line>Launch native activity / URL chrome:http://www.screensavers.com</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>3.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@id='backButton']' in zone WEB, timeout: 20000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>4.PNG</imageFile>
+<secondImageFile>5.PNG</secondImageFile>
+<line>Verify 'xpath=//*[@id='backButton']' is found in zone 'WEB' index 0</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>6.PNG</imageFile>
+<secondImageFile>7.PNG</secondImageFile>
+<text>Found: true</text>
+<line>Check if 'xpath=//*[@id='backButton']' is found in zone 'WEB' index 0</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>8.PNG</imageFile>
+<line>Able to redirect to SecureNet blockage page</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>9.PNG</imageFile>
+<line>End Test</line>
+<status>true</status>
+</report>
+</reports>
+</test_report>

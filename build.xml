@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="SeeTestDemo">
+    <property environment="env"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="SeeTestDemo.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="lib/appium-client.jar"/>
+        <pathelement location="lib/aspectjweaver-1.8.9.jar"/>
+        <pathelement location="lib/boon-0.33.jar"/>
+        <pathelement location="lib/cglib-nodep-3.2.4.jar"/>
+        <pathelement location="lib/commons-beanutils-1.9.2.jar"/>
+        <pathelement location="lib/commons-codec-1.10.jar"/>
+        <pathelement location="lib/commons-collections-3.2.2.jar"/>
+        <pathelement location="lib/commons-digester-1.8.1.jar"/>
+        <pathelement location="lib/commons-exec-1.3.jar"/>
+        <pathelement location="lib/commons-io-2.4.jar"/>
+        <pathelement location="lib/commons-lang3-3.4.jar"/>
+        <pathelement location="lib/commons-logging-1.2.jar"/>
+        <pathelement location="lib/commons-validator-1.5.1.jar"/>
+        <pathelement location="lib/cssparser-0.9.18.jar"/>
+        <pathelement location="lib/gson-2.7.jar"/>
+        <pathelement location="lib/guava-19.0.jar"/>
+        <pathelement location="lib/hamcrest-core-1.3.jar"/>
+        <pathelement location="lib/htmlunit-2.21.jar"/>
+        <pathelement location="lib/htmlunit-core-js-2.17.jar"/>
+        <pathelement location="lib/htmlunit-driver-2.21.jar"/>
+        <pathelement location="lib/httpclient-4.5.2.jar"/>
+        <pathelement location="lib/httpcore-4.4.4.jar"/>
+        <pathelement location="lib/httpmime-4.5.2.jar"/>
+        <pathelement location="lib/imageClient-11.0.jar"/>
+        <pathelement location="lib/java-client-4.1.2.jar"/>
+        <pathelement location="lib/jcommander-1.48.jar"/>
+        <pathelement location="lib/jetty-io-9.2.15.v20160210.jar"/>
+        <pathelement location="lib/jetty-util-9.2.15.v20160210.jar"/>
+        <pathelement location="lib/jna-4.1.0.jar"/>
+        <pathelement location="lib/jna-platform-4.1.0.jar"/>
+        <pathelement location="lib/junit-4.12.jar"/>
+        <pathelement location="lib/manager-client-api-11.0.1.jar"/>
+        <pathelement location="lib/mobile-webdriver-11.0.jar"/>
+        <pathelement location="lib/neko-htmlunit-2.21.jar"/>
+        <pathelement location="lib/netty-3.5.7.Final.jar"/>
+        <pathelement location="lib/Repo-1.1.jar"/>
+        <pathelement location="lib/sac-1.3.jar"/>
+        <pathelement location="lib/selenium-api-2.53.1.jar"/>
+        <pathelement location="lib/selenium-chrome-driver-2.53.1.jar"/>
+        <pathelement location="lib/selenium-edge-driver-2.53.1.jar"/>
+        <pathelement location="lib/selenium-firefox-driver-2.53.1.jar"/>
+        <pathelement location="lib/selenium-ie-driver-2.53.1.jar"/>
+        <pathelement location="lib/selenium-java-2.53.1.jar"/>
+        <pathelement location="lib/selenium-leg-rc-2.53.1.jar"/>
+        <pathelement location="lib/selenium-remote-driver-2.53.1.jar"/>
+        <pathelement location="lib/selenium-safari-driver-2.53.1.jar"/>
+        <pathelement location="lib/selenium-support-2.53.1.jar"/>
+        <pathelement location="lib/serializer-2.7.2.jar"/>
+        <pathelement location="lib/spring-aop-4.3.2.RELEASE.jar"/>
+        <pathelement location="lib/spring-beans-4.3.2.RELEASE.jar"/>
+        <pathelement location="lib/spring-context-4.3.2.RELEASE.jar"/>
+        <pathelement location="lib/spring-core-4.3.2.RELEASE.jar"/>
+        <pathelement location="lib/spring-expression-4.3.2.RELEASE.jar"/>
+        <pathelement location="lib/testng-6.9.9.jar"/>
+        <pathelement location="lib/websocket-api-9.2.15.v20160210.jar"/>
+        <pathelement location="lib/websocket-client-9.2.15.v20160210.jar"/>
+        <pathelement location="lib/websocket-common-9.2.15.v20160210.jar"/>
+        <pathelement location="lib/ws-commons-util-1.0.2.jar"/>
+        <pathelement location="lib/xalan-2.7.2.jar"/>
+        <pathelement location="lib/xercesImpl-2.11.0.jar"/>
+        <pathelement location="lib/xml-apis-1.4.01.jar"/>
+        <pathelement location="lib/xmlrpc-client-3.1.2.jar"/>
+        <pathelement location="lib/xmlrpc-common-3.1.2.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="SeeTestDemo.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="AndroidDemoTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="on" showoutput="true">
+            <formatter type="xml"/>
+            <test name="com.experitest.auto.AndroidDemoTest" todir="${junit.output.dir}"/>
+            <classpath refid="SeeTestDemo.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

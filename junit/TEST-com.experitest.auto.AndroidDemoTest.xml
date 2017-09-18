@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="vfroot-ThinkPad-T430s" name="com.experitest.auto.AndroidDemoTest" skipped="0" tests="1" time="43.151" timestamp="2017-09-18T12:18:45">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.SESSION_MANAGER" value="local/vfroot-ThinkPad-T430s:@/tmp/.ICE-unix/2007,unix/vfroot-ThinkPad-T430s:/tmp/.ICE-unix/2007" />
+    <property name="env.IM_CONFIG_PHASE" value="1" />
+    <property name="env.LIBOVERLAY_SCROLLBAR" value="0" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.QT_IM_MODULE" value="ibus" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Linux" />
+    <property name="env.UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1000/1825" />
+    <property name="sun.boot.class.path" value="/usr/local/java/jdk1.8.0_131/jre/lib/resources.jar:/usr/local/java/jdk1.8.0_131/jre/lib/rt.jar:/usr/local/java/jdk1.8.0_131/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.8.0_131/jre/lib/jsse.jar:/usr/local/java/jdk1.8.0_131/jre/lib/jce.jar:/usr/local/java/jdk1.8.0_131/jre/lib/charsets.jar:/usr/local/java/jdk1.8.0_131/jre/lib/jfr.jar:/usr/local/java/jdk1.8.0_131/jre/classes" />
+    <property name="env.PWD" value="/home/vf-root" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="env.LANG" value="en_IN" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="env.XDG_MENU_PREFIX" value="gnome-" />
+    <property name="ant.home" value="/opt/eclipse/plugins/org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.8.0_131-b11" />
+    <property name="env.GTK_IM_MODULE" value="ibus" />
+    <property name="env.DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path" />
+    <property name="env.XDG_VTNR" value="7" />
+    <property name="env.DISPLAY" value=":0" />
+    <property name="user.name" value="vf-root" />
+    <property name="env.QT4_IM_MODULE" value="xim" />
+    <property name="env.USER" value="vf-root" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.DESKTOP_SESSION" value="ubuntu" />
+    <property name="env.XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/" />
+    <property name="env.NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat" />
+    <property name="env.PATH" value="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin" />
+    <property name="env.XDG_CURRENT_DESKTOP" value="Unity" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_131/jre/lib/amd64" />
+    <property name="env.TEXTDOMAIN" value="im-config" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.SELINUX_INIT" value="YES" />
+    <property name="ant.project.name" value="SeeTestDemo" />
+    <property name="java.version" value="1.8.0_131" />
+    <property name="user.timezone" value="" />
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-wKVshviWUg" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.COMPIZ_CONFIG_PROFILE" value="ubuntu" />
+    <property name="java.endorsed.dirs" value="/usr/local/java/jdk1.8.0_131/jre/lib/endorsed" />
+    <property name="env.DERBY_HOME" value="/usr/lib/jvm/java-8-oracle/db" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="0" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="env.GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+    <property name="java.class.version" value="52.0" />
+    <property name="env.GDMSESSION" value="ubuntu" />
+    <property name="user.country" value="IN" />
+    <property name="env.GNOME_KEYRING_PID" value="1823" />
+    <property name="java.home" value="/usr/local/java/jdk1.8.0_131/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="vf-root" />
+    <property name="ant.file" value="/home/vf-root/Documents/SeeTestDemo/build.xml" />
+    <property name="os.version" value="3.13.0-32-generic" />
+    <property name="env.J2REDIR" value="/usr/lib/jvm/java-8-oracle/jre" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.131-b11" />
+    <property name="env.LANGUAGE" value="en_IN:en" />
+    <property name="env.TEXTDOMAINDIR" value="/usr/share/locale/" />
+    <property name="ant.library.dir" value="/opt/eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib" />
+    <property name="env.XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session0" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.QT_QPA_PLATFORMTHEME" value="appmenu-qt5" />
+    <property name="env.SESSIONTYPE" value="gnome-session" />
+    <property name="env.JAVA_HOME" value="/usr/lib/jvm/java-8-oracle" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="env.OXYGEN_DISABLE_INNER_SHADOWS_HACK" value="1" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="env.XMODIFIERS" value="@im=ibus" />
+    <property name="env.GDM_LANG" value="en_US" />
+    <property name="target" value="1.8" />
+    <property name="user.home" value="/home/vf-root" />
+    <property name="env.JOB" value="dbus" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.file.SeeTestDemo" value="/home/vf-root/Documents/SeeTestDemo/build.xml" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="env.GIO_LAUNCHED_DESKTOP_FILE" value="/usr/share/applications/eclipse.desktop" />
+    <property name="env.XDG_SEAT" value="seat0" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="java.class.path" value="/home/vf-root/Documents/SeeTestDemo/bin:/home/vf-root/Documents/SeeTestDemo/lib/appium-client.jar:/home/vf-root/Documents/SeeTestDemo/lib/aspectjweaver-1.8.9.jar:/home/vf-root/Documents/SeeTestDemo/lib/boon-0.33.jar:/home/vf-root/Documents/SeeTestDemo/lib/cglib-nodep-3.2.4.jar:/home/vf-root/Documents/SeeTestDemo/lib/commons-beanutils-1.9.2.jar:/home/vf-root/Documents/SeeTestDemo/lib/commons-codec-1.10.jar:/home/vf-root/Documents/SeeTestDemo/lib/commons-collections-3.2.2.jar:/home/vf-root/Documents/SeeTestDemo/lib/commons-digester-1.8.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/commons-exec-1.3.jar:/home/vf-root/Documents/SeeTestDemo/lib/commons-io-2.4.jar:/home/vf-root/Documents/SeeTestDemo/lib/commons-lang3-3.4.jar:/home/vf-root/Documents/SeeTestDemo/lib/commons-logging-1.2.jar:/home/vf-root/Documents/SeeTestDemo/lib/commons-validator-1.5.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/cssparser-0.9.18.jar:/home/vf-root/Documents/SeeTestDemo/lib/gson-2.7.jar:/home/vf-root/Documents/SeeTestDemo/lib/guava-19.0.jar:/home/vf-root/Documents/SeeTestDemo/lib/hamcrest-core-1.3.jar:/home/vf-root/Documents/SeeTestDemo/lib/htmlunit-2.21.jar:/home/vf-root/Documents/SeeTestDemo/lib/htmlunit-core-js-2.17.jar:/home/vf-root/Documents/SeeTestDemo/lib/htmlunit-driver-2.21.jar:/home/vf-root/Documents/SeeTestDemo/lib/httpclient-4.5.2.jar:/home/vf-root/Documents/SeeTestDemo/lib/httpcore-4.4.4.jar:/home/vf-root/Documents/SeeTestDemo/lib/httpmime-4.5.2.jar:/home/vf-root/Documents/SeeTestDemo/lib/imageClient-11.0.jar:/home/vf-root/Documents/SeeTestDemo/lib/java-client-4.1.2.jar:/home/vf-root/Documents/SeeTestDemo/lib/jcommander-1.48.jar:/home/vf-root/Documents/SeeTestDemo/lib/jetty-io-9.2.15.v20160210.jar:/home/vf-root/Documents/SeeTestDemo/lib/jetty-util-9.2.15.v20160210.jar:/home/vf-root/Documents/SeeTestDemo/lib/jna-4.1.0.jar:/home/vf-root/Documents/SeeTestDemo/lib/jna-platform-4.1.0.jar:/home/vf-root/Documents/SeeTestDemo/lib/junit-4.12.jar:/home/vf-root/Documents/SeeTestDemo/lib/manager-client-api-11.0.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/mobile-webdriver-11.0.jar:/home/vf-root/Documents/SeeTestDemo/lib/neko-htmlunit-2.21.jar:/home/vf-root/Documents/SeeTestDemo/lib/netty-3.5.7.Final.jar:/home/vf-root/Documents/SeeTestDemo/lib/Repo-1.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/sac-1.3.jar:/home/vf-root/Documents/SeeTestDemo/lib/selenium-api-2.53.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/selenium-chrome-driver-2.53.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/selenium-edge-driver-2.53.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/selenium-firefox-driver-2.53.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/selenium-ie-driver-2.53.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/selenium-java-2.53.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/selenium-leg-rc-2.53.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/selenium-remote-driver-2.53.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/selenium-safari-driver-2.53.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/selenium-support-2.53.1.jar:/home/vf-root/Documents/SeeTestDemo/lib/serializer-2.7.2.jar:/home/vf-root/Documents/SeeTestDemo/lib/spring-aop-4.3.2.RELEASE.jar:/home/vf-root/Documents/SeeTestDemo/lib/spring-beans-4.3.2.RELEASE.jar:/home/vf-root/Documents/SeeTestDemo/lib/spring-context-4.3.2.RELEASE.jar:/home/vf-root/Documents/SeeTestDemo/lib/spring-core-4.3.2.RELEASE.jar:/home/vf-root/Documents/SeeTestDemo/lib/spring-expression-4.3.2.RELEASE.jar:/home/vf-root/Documents/SeeTestDemo/lib/testng-6.9.9.jar:/home/vf-root/Documents/SeeTestDemo/lib/websocket-api-9.2.15.v20160210.jar:/home/vf-root/Documents/SeeTestDemo/lib/websocket-client-9.2.15.v20160210.jar:/home/vf-root/Documents/SeeTestDemo/lib/websocket-common-9.2.15.v20160210.jar:/home/vf-root/Documents/SeeTestDemo/lib/ws-commons-util-1.0.2.jar:/home/vf-root/Documents/SeeTestDemo/lib/xalan-2.7.2.jar:/home/vf-root/Documents/SeeTestDemo/lib/xercesImpl-2.11.0.jar:/home/vf-root/Documents/SeeTestDemo/lib/xml-apis-1.4.01.jar:/home/vf-root/Documents/SeeTestDemo/lib/xmlrpc-client-3.1.2.jar:/home/vf-root/Documents/SeeTestDemo/lib/xmlrpc-common-3.1.2.jar:/opt/eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-launcher.jar:/opt/eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar:/opt/eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit.jar:/opt/eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.experitest.auto.AndroidDemoTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/vf-root/Documents/SeeTestDemo/junit/TEST-com.experitest.auto.AndroidDemoTest.xml crashfile=/home/vf-root/Documents/SeeTestDemo/junitvmwatcher1542250542452134001.properties propsfile=/home/vf-root/Documents/SeeTestDemo/junit7476551463136497560.properties" />
+    <property name="env.XDG_SESSION_ID" value="c4" />
+    <property name="env.XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HOME" value="/home/vf-root" />
+    <property name="env.ANT_HOME" value="/opt/eclipse/plugins/org.apache.ant_1.9.6.v201510161327" />
+    <property name="env.XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/run/user/1000/keyring-yGZbmm/ssh" />
+    <property name="env.CLUTTER_IM_MODULE" value="xim" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.INSTANCE" value="" />
+    <property name="java.ext.dirs" value="/usr/local/java/jdk1.8.0_131/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="env.XDG_RUNTIME_DIR" value="/run/user/1000" />
+    <property name="user.dir" value="/home/vf-root/Documents/SeeTestDemo" />
+    <property name="env.SESSION" value="ubuntu" />
+    <property name="env.XAUTHORITY" value="/home/vf-root/.Xauthority" />
+    <property name="ant.file.type.SeeTestDemo" value="file" />
+    <property name="env.MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path" />
+    <property name="env.J2SDKDIR" value="/usr/lib/jvm/java-8-oracle" />
+    <property name="env.GTK_MODULES" value="overlay-scrollbar:unity-gtk-module" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.GDK_CORE_DEVICE_EVENTS" value="1" />
+    <property name="basedir" value="/home/vf-root/Documents/SeeTestDemo" />
+    <property name="env.XDG_GREETER_DATA_DIR" value="/var/lib/lightdm-data/vf-root" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/opt/eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar" />
+    <property name="source" value="1.8" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.COMPIZ_BIN_PATH" value="/usr/bin/" />
+    <property name="env.GPG_AGENT_INFO" value="/run/user/1000/keyring-yGZbmm/gpg:0:1" />
+    <property name="env.GIO_LAUNCHED_DESKTOP_FILE_PID" value="16863" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.GNOME_KEYRING_CONTROL" value="/run/user/1000/keyring-yGZbmm" />
+    <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg" />
+    <property name="ant.project.invoked-targets" value="build,AndroidDemoTest" />
+  </properties>
+  <testcase classname="com.experitest.auto.AndroidDemoTest" name="test" time="43.008" />
+  <system-out><![CDATA[Mon Sep 18 17:48:48 IST 2017 [main] Picked up Grid Node (seetest_7777)
+Reserved Device : Sony Xperia XZ  -- C7
+Link for view: http://92.79.130.103:-1/iOS_Agent_102/#/k9tOEr7vclvTcJkS?1
+Mon Sep 18 17:48:48 IST 2017 [main] The method lockDeviceForExecution creating client, HostOrIp: 92.79.130.103, Port: -1, secure: false
+Mon Sep 18 17:48:48 IST 2017 [main] Client version: 11.0.5
+Mon Sep 18 17:48:54 IST 2017 [main] Lock Device by query: @serialnumber='CB512DLQDM'
+Mon Sep 18 17:48:54 IST 2017 [main] Device Information
+Name: Sony Xperia XZ  -- C7
+S/N: CB512DLQDM
+OS: Android
+Manufacture: Sony
+Model: F8331
+Version: 7.1.1
+Screen size: 1080x1920
+Connected to: 92.79.130.103:8082
+
+Mon Sep 18 17:48:54 IST 2017 [main] The method lockDeviceForExecution success with sessionId 'CLOUD-SID:2017-09-18_14-18-46-913e4d92-7d82-46fd-81f0-3c7734ff730f'
+Mon Sep 18 17:48:54 IST 2017 [main] Start test AndroidDemoTest
+Mon Sep 18 17:48:54 IST 2017 [main] /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/headless/CLOUD-SID_2017-09-18_14-18-46-913e4d92-7d82-46fd-81f0-3c7734ff730f/61b14d07-971f-4ebb-9bc9-b33aba71e392
+Mon Sep 18 17:48:55 IST 2017 [main] Device Action: HOME
+Mon Sep 18 17:49:14 IST 2017 [main] Launch native activity / URL chrome:http://www.screensavers.com
+Mon Sep 18 17:49:15 IST 2017 [main] Wait for 'xpath=//*[@id='backButton']' in zone WEB, timeout: 20000
+Mon Sep 18 17:49:15 IST 2017 [main] Found: true
+Mon Sep 18 17:49:16 IST 2017 [main] Verify 'xpath=//*[@id='backButton']' is found in zone 'WEB' index 0
+Mon Sep 18 17:49:18 IST 2017 [main] Check if 'xpath=//*[@id='backButton']' is found in zone 'WEB' index 0
+Mon Sep 18 17:49:18 IST 2017 [main] Found: true
+Mon Sep 18 17:49:19 IST 2017 [main] Able to redirect to SecureNet blockage page
+Mon Sep 18 17:49:20 IST 2017 [main] /home/vf-root/Documents/SeeTestDemo/reports/grid-test_2017-09-18 05-48-54
+Mon Sep 18 17:49:20 IST 2017 [main] Downloading file: /61b14d07-971f-4ebb-9bc9-b33aba71e392 to destination: /home/vf-root/Documents/SeeTestDemo/reports/grid-test_2017-09-18 05-48-54 from remote machine: 92.79.130.103:-1 /iOS_Agent_102; session-ID: CLOUD-SID_2017-09-18_14-18-46-913e4d92-7d82-46fd-81f0-3c7734ff730f
+Mon Sep 18 17:49:27 IST 2017 [main] releaseClient
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

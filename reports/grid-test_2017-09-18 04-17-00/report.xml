@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><test_report>
+<info>
+<test_info>
+<test_status>OK</test_status>
+<time_zone>Central European Time</time_zone>
+<run_started>Mon, 18 Sep 2017 12:47:01</run_started>
+<total_time>2.0</total_time>
+<project/>
+<user>root</user>
+<machine_name>admins-mac-mini.local</machine_name>
+</test_info>
+<device_info>
+<device_name>Sony Xperia XZ  -- C7</device_name>
+<manufacture>Sony</manufacture>
+<model>F8331</model>
+<os>Android</os>
+<serial_number>CB512DLQDM</serial_number>
+<version>7.1.1</version>
+<versionMajor>7.x</versionMajor>
+<screen_size>1080x1920</screen_size>
+</device_info>
+</info>
+<reports>
+<report>
+<text>/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/headless/CLOUD-SID_2017-09-18_12-46-37-a2a61fe3-7955-48b3-b84c-8308858159d5/39203583-7ad4-4543-9ffa-079d92185ece</text>
+<line>Start test AndroidDemoTest</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>0.PNG</imageFile>
+<secondImageFile>1.PNG</secondImageFile>
+<line>Device Action: HOME</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>2.PNG</imageFile>
+<line>End Test</line>
+<status>true</status>
+</report>
+</reports>
+</test_report>
